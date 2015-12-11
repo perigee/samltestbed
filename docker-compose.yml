@@ -18,5 +18,5 @@ shibboleth:
   container_name: shibboleth-idp
   image: jtgasper3/shibboleth-idp
   volumes:
-    - config:/external-mount
+    - ./configfiles:/external-mount
 
